@@ -22,4 +22,4 @@ deploy:
       branch: travis-testing
     skip_cleanup: true
     provider: script
-    script: "cp ./travis/settings.xml $HOME/.m2/settings.xml && mvn deploy"
+    script: "python travis/addServer.py && $HOME/.m2/settings.xml && mvn deploy"
