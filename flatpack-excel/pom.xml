@@ -8,7 +8,6 @@
         <version>4.0.4-SNAPSHOT</version>
     </parent>
 
-
     <artifactId>flatpack-excel</artifactId>
     <name>FlatPack Excel</name>
     <packaging>bundle</packaging> <!-- (1) OSGi -->
